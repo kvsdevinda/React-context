@@ -6,19 +6,23 @@ import './App.css';
 // import Footer from './Components/Footer';
 import UseCounter from './UseCounter';
 import { Outlet } from 'react-router-dom';
+import Testcompone from './Components/Testcompone';
 // import LayoutEffectTest from './Components/Layout-effect-test';
 
 
 
 function App() {
-  const {increment,decrement,count} = UseCounter(5)
+  // const {increment,decrement,count} = UseCounter(5)
   return (
  
     <div>
-      <main>
-        <Outlet></Outlet>
-      </main>
+      <Testcompone/>
     </div>
+      // </Testcompone>
+      // {/* <main>
+      //   <Outlet></Outlet>
+      // </main> */}
+  
     // // <>
     // // <div>
     // //   <p>Count : {count}</p>

@@ -7,7 +7,7 @@ const initialState = {
 };
 
 const authSlice = createSlice({
-    name: "auth",
+    name: "Post",
     initialState,
     
     
@@ -16,4 +16,3 @@ const authSlice = createSlice({
 
 
 export default authSlice.reducer;
-

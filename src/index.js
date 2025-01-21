@@ -9,6 +9,7 @@ import Singup from './Pages/Singup';
 import store from './Store/Store';
 import { Provider } from 'react-redux';
 import Login from './Components/Login';
+import Protected from './Components/Protected';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -25,13 +26,15 @@ const router = createBrowserRouter([
       },
       {
         path: "home", 
-        element: <Home />,
+        element: <Protected children={<Home />}/>,
       },
 
       {
         path: "Login", 
-        element: <Login/>,
+        element:<Protected children={<Login/>}/> ,
       }
+
+     
     ],
   },
 ]);
