@@ -15,13 +15,13 @@ function App() {
   // const {increment,decrement,count} = UseCounter(5)
   return (
  
-    <div>
-      <Testcompone/>
-    </div>
+    // <div>
+    //   <Testcompone/>
+    // </div>
       // </Testcompone>
-      // {/* <main>
-      //   <Outlet></Outlet>
-      // </main> */}
+      <main>
+        <Outlet></Outlet>
+      </main> 
   
     // // <>
     // // <div>
