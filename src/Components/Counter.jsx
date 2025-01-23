@@ -1,4 +1,3 @@
-// src/components/Counter.jsx
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 
@@ -13,7 +12,7 @@ const Counter = ({ initialCount = 0 }) => {
   return (
     <div>
       <h1>
-        Count: <h3 data-testid="count">{count}</h3>
+        Count: <span data-testid="count">{count}</span>
       </h1>
       <div>
         <button onClick={increment}>Increment</button>
